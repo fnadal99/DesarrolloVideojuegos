@@ -7,6 +7,8 @@ public class Test : MonoBehaviour // Inherits from MonoBehaviour
     public Vector3 escalaJugador;
     private int vida = 100;
 
+    public int monedas;
+
     void Start()
     {
         transform.localScale += escalaJugador;
@@ -39,6 +41,12 @@ public class Test : MonoBehaviour // Inherits from MonoBehaviour
     void Salto()
     {
         Debug.Log("El jugador esta saltando")
+    }
+
+    void RecolectarMonedas()
+    {
+        monedas++;
+        Debug.Log("He recolectado "+monedas+" monedas");
     }
  
         
