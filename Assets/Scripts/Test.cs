@@ -35,6 +35,11 @@ public class Test : MonoBehaviour // Inherits from MonoBehaviour
     {
         vida -= 1;
     }
+
+    void Salto()
+    {
+        Debug.Log("El jugador esta saltando")
+    }
  
         
 }
